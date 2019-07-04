@@ -25,7 +25,7 @@ class App < Sinatra::Base
     @number1 = @number1.to_i
     @number2 =  params[:number2]
     @number2 = @number2.to_i
-    <h1>@number1*@number2</h2>
+    <h1><%=@number1*@number2%></h2>
   end
 
 end
